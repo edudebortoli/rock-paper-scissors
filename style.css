@@ -29,7 +29,7 @@ header{
     ;
 }
 
-.rps{
+.rps, .rps-pc{
     flex: none;
     flex-direction: row;
     width: 50px;
@@ -42,9 +42,15 @@ header{
 
 }
 .rps:hover{
-    background-color: lightseagreen;
+    background-color: hotpink;
 }
 
-.round-event{
+#score{
     text-align: center;
 }
+
+#round-event{
+    text-align: center;
+    font-size: xx-large;
+}
+
